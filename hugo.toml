@@ -1,7 +1,7 @@
 baseURL = 'https://elverai.github.io/elver-site/'
 languageCode = 'en-us'
 title = 'Elver AI'
-theme = 'hugo-coder'
+theme = 'agnes'
 
 # Performance optimization
 [minify]
@@ -15,18 +15,36 @@ theme = 'hugo-coder'
   [caches.assets]
     dir = ":cacheDir/assets"
 
-# Hugo Coder theme parameters
 [params]
-  author = "Elver AI"
-  description = "AI-powered market research using synthetic audiences for message and comms testing"
-  keywords = "ai,market research,synthetic panels,message testing,research professionals"
-  info = ["AI-Powered Market Research"]
+  dateFormat = "Jan 2, 2025"
+  authorName = "Elver AI"
 
-  # Social links (optional - remove or update as needed)
-  # [[params.social]]
-  #   name = "LinkedIn"
-  #   icon = "fa-brands fa-linkedin"
-  #   url = "https://linkedin.com/company/yourcompany"
+[params.content]
+  LeadTitle = "AI-Powered Market Research"
+  LeadDescription = "We help research professionals build internal systems to run message and comms testing using synthetic audiences. Bespoke – secure – enterprise-grade."
+  ButtonCaption = "Book a Consultation"
+  ButtonURL = "/contact/"
+
+# How It Works Features
+[[params.feature]]
+  FeatureTitle = "Walled-Garden LLM Environment"
+  FeatureDescription = "We deploy and host open-source LLMs inside a private, controlled environment that belongs entirely to you. Your data never leaves your ecosystem."
+  FeatureImage = "images/feature-1.png"
+
+[[params.feature]]
+  FeatureTitle = "Your Data and Taxonomies"
+  FeatureDescription = "We fine-tune or augment the models using your historical studies, segmentations, and category knowledge, ensuring synthetic respondents reflect your established understanding."
+  FeatureImage = "images/feature-2.png"
+
+[[params.feature]]
+  FeatureTitle = "Rigorous Validation"
+  FeatureDescription = "Outputs are continually compared against your real-world survey data, qual findings, and past message tests to ensure consistency and reliability."
+  FeatureImage = "images/feature-3.png"
+
+[[params.feature]]
+  FeatureTitle = "You Own Everything"
+  FeatureDescription = "All IP, all training outputs, and all system components belong exclusively to you. The result is a long-term internal capability, not a dependency on a vendor."
+  FeatureImage = "images/feature-4.png"
 
 # Main menu
 [[menu.main]]
