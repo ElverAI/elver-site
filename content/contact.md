@@ -2,16 +2,16 @@
 title: "Contact"
 ---
 
-# Get In Touch
+# Ready to Explore Synthetic Panels?
 
-We'd love to hear from you.
+Let's discuss your audiences, your data, and how a private AI research system could expand your insight toolkit.
 
-## Contact Information
+## Get In Touch
 
-- **Email:** contact@yourconsultancy.com
-- **Phone:** +1 (555) 123-4567
-- **Location:** Your City, Country
+**Email us directly at:**
 
-## Business Hours
+[contact@elver.ai](mailto:contact@elver.ai)
 
-Monday - Friday: 9:00 AM - 5:00 PM
+---
+
+We help research professionals build internal systems that are bespoke, secure, and enterprise-grade.

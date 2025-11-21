@@ -2,14 +2,16 @@
 title: "Home"
 ---
 
-# Welcome to Our Consultancy
+# AI-Powered Market Research
 
-We deliver fast, effective solutions for your business needs.
+We help research professionals build internal systems to run message and comms testing using synthetic audiences.
 
-## What We Do
+**bespoke – secure – enterprise-grade**
 
-Professional consultancy services tailored to your requirements.
+[Book a Consultation](/contact/)
 
-## Get Started
+---
 
-[Learn more about our services](/services/) or [get in touch](/contact/).
+Synthetic panels can simulate the behaviours, attitudes, and decision-making of real target groups – including extremely niche or hard-to-reach populations. Because they're trained and validated against your proprietary datasets, they reflect your categories, your markets, and your reality.
+
+You get insight-quality outputs in minutes, not weeks – without handing your methodology or data to an external platform.

@@ -18,9 +18,9 @@ theme = 'hugo-coder'
 # Hugo Coder theme parameters
 [params]
   author = "Elver AI"
-  description = "AI consultancy and solutions"
-  keywords = "ai,consultancy,artificial intelligence"
-  info = ["AI Consultancy & Solutions"]
+  description = "AI-powered market research using synthetic audiences for message and comms testing"
+  keywords = "ai,market research,synthetic panels,message testing,research professionals"
+  info = ["AI-Powered Market Research"]
 
   # Social links (optional - remove or update as needed)
   # [[params.social]]
@@ -35,12 +35,12 @@ theme = 'hugo-coder'
   url = "/"
 
 [[menu.main]]
-  name = "About"
+  name = "How It Works"
   weight = 2
   url = "/about/"
 
 [[menu.main]]
-  name = "Services"
+  name = "Synthetic Panels"
   weight = 3
   url = "/services/"
 
