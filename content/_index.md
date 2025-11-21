@@ -4,7 +4,7 @@ title: "Elver AI"
 
 # AI-Powered Market Research
 
-We help research professionals build internal systems to run message and comms testing using synthetic audiences.
+We help research professionals build internal systems to test messaging with synthetic audiences.
 
 **bespoke – secure – enterprise-grade**
 
