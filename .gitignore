@@ -1,0 +1,24 @@
+# Hugo generated files
+/public/
+/resources/_gen/
+hugo_stats.json
+
+# Hugo cache directory
+/.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if using npm for dependencies)
+node_modules/
+
+# Lock files (optional - comment out if you want to track them)
+package-lock.json

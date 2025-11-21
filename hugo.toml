@@ -1,0 +1,51 @@
+# Update this to your GitHub Pages URL: https://USERNAME.github.io/REPO-NAME/
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Your Consultancy Name'
+theme = 'hugo-coder'
+
+# Performance optimization
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# Cache configuration for GitHub Actions
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+  [caches.assets]
+    dir = ":cacheDir/assets"
+
+# Hugo Coder theme parameters
+[params]
+  author = "Your Consultancy"
+  description = "Fast, professional consultancy services"
+  keywords = "consultancy,services,professional"
+  info = ["Consultancy Services"]
+
+  # Social links (optional - remove or update as needed)
+  # [[params.social]]
+  #   name = "LinkedIn"
+  #   icon = "fa-brands fa-linkedin"
+  #   url = "https://linkedin.com/company/yourcompany"
+
+# Main menu
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url = "/"
+
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "/about/"
+
+[[menu.main]]
+  name = "Services"
+  weight = 3
+  url = "/services/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 4
+  url = "/contact/"
