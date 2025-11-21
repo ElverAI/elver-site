@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <meta name="description" content="AI-powered market research using synthetic audiences for message and comms testing">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['-apple-system', 'BlinkMacSystemFont', 'Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-900">
+    {{ block "main" . }}{{ end }}
+
+    <footer class="border-t border-gray-200 py-8 mt-24">
+        <div class="max-w-4xl mx-auto px-6 text-center text-sm text-gray-600">
+            <p>&copy; {{ now.Year }} Elver AI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

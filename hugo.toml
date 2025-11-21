@@ -1,12 +1,17 @@
 baseURL = 'https://elverai.github.io/elver-site/'
 languageCode = 'en-us'
 title = 'Elver AI'
-theme = 'agnes'
 
 # Performance optimization
 [minify]
   disableXML = true
   minifyOutput = true
+
+# Allow HTML in markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Cache configuration for GitHub Actions
 [caches]
