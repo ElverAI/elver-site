@@ -30,21 +30,6 @@ theme = 'hugo-coder'
 
 # Main menu
 [[menu.main]]
-  name = "Home"
-  weight = 1
-  url = "/"
-
-[[menu.main]]
-  name = "How It Works"
-  weight = 2
-  url = "/about/"
-
-[[menu.main]]
-  name = "Synthetic Panels"
-  weight = 3
-  url = "/services/"
-
-[[menu.main]]
   name = "Contact"
-  weight = 4
+  weight = 1
   url = "/contact/"
