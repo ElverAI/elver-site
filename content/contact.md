@@ -2,7 +2,7 @@
 title: "Contact"
 ---
 
-# Ready to Explore Synthetic Panels?
+# Contact
 
 Let's discuss your audiences, your data, and how a private AI research system could expand your insight toolkit.
 

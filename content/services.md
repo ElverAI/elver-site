@@ -1,5 +1,5 @@
 ---
-title: "Services"
+title: "Synthetic Panels"
 ---
 
 # Synthetic Panels

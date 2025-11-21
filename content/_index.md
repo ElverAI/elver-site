@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Elver AI"
 ---
 
 # AI-Powered Market Research
