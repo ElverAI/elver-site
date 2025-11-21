@@ -1,7 +1,6 @@
-# Update this to your GitHub Pages URL: https://USERNAME.github.io/REPO-NAME/
-baseURL = 'https://example.org/'
+baseURL = 'https://elverai.github.io/elver-site/'
 languageCode = 'en-us'
-title = 'Your Consultancy Name'
+title = 'Elver AI'
 theme = 'hugo-coder'
 
 # Performance optimization
@@ -18,10 +17,10 @@ theme = 'hugo-coder'
 
 # Hugo Coder theme parameters
 [params]
-  author = "Your Consultancy"
-  description = "Fast, professional consultancy services"
-  keywords = "consultancy,services,professional"
-  info = ["Consultancy Services"]
+  author = "Elver AI"
+  description = "AI consultancy and solutions"
+  keywords = "ai,consultancy,artificial intelligence"
+  info = ["AI Consultancy & Solutions"]
 
   # Social links (optional - remove or update as needed)
   # [[params.social]]
