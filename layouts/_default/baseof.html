@@ -24,6 +24,21 @@
     </style>
 </head>
 <body class="antialiased text-gray-900">
+    <header class="fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50">
+        <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="/elver-site/" class="flex items-center hover:opacity-80 transition-opacity">
+                {{ $logo := resources.Get "logo.png" }}
+                {{ with $logo }}
+                {{ $headerLogo := .Resize "80x q85" }}
+                <img src="{{ $headerLogo.RelPermalink }}" alt="Elver AI" class="h-8 w-auto">
+                {{ end }}
+            </a>
+            <a href="/elver-site/contact/" class="text-lg text-white hover:text-gray-300 transition-colors">
+                Contact
+            </a>
+        </div>
+    </header>
+
     {{ block "main" . }}{{ end }}
 
     <footer class="border-t border-gray-200 py-8 mt-24">
