@@ -5,7 +5,7 @@ title: "Contact"
 <div class="text-center space-y-8">
 
 <p class="text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto">
-Let's discuss your audiences, your data, and how a private AI research system could expand your insight toolkit.
+Get in touch to discuss your requirements, your data, and how a private AI research system could expand your insight toolkit.
 </p>
 
 <div class="pt-8 flex items-center justify-center gap-3">
