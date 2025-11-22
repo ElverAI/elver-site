@@ -44,8 +44,5 @@ function copyEmail() {
 }
 </script>
 
-<p class="text-gray-600 pt-8">
-We help research professionals build internal systems that are bespoke, secure, and enterprise-grade.
-</p>
 
 </div>
