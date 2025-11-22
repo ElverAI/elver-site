@@ -22,6 +22,8 @@
             scroll-behavior: smooth;
         }
     </style>
+    {{ $favicon := resources.Get "favicon.png" }}
+    <link rel="icon" type="image/png" href="{{ $favicon.RelPermalink }}">
 </head>
 <body class="antialiased text-gray-900">
     <header class="fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50">
