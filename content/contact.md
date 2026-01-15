@@ -10,7 +10,7 @@ Get in touch to discuss your requirements.
 
 <div class="pt-8 flex items-center justify-center gap-3">
 <span class="px-8 py-4 bg-gray-900 text-white rounded-lg text-lg font-medium">
-contact@elver.tech
+andy@elver.tech
 </span>
 <button id="copyBtn" onclick="copyEmail()" class="p-4 bg-gray-100 hover:bg-gray-200 rounded-lg transition-all duration-200" title="Copy email">
 <svg id="copyIcon" class="w-5 h-5 text-gray-700 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -24,7 +24,7 @@ contact@elver.tech
 
 <script>
 function copyEmail() {
-  navigator.clipboard.writeText('contact@elver.tech').then(() => {
+  navigator.clipboard.writeText('andy@elver.tech').then(() => {
     const btn = document.getElementById('copyBtn');
     const copyIcon = document.getElementById('copyIcon');
     const checkIcon = document.getElementById('checkIcon');
